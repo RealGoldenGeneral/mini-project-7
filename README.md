@@ -33,7 +33,7 @@ Automated blood cell detection plays an essential role in Complete Blood Count (
 - **Detection Classes:** RBC, WBC, Platelets  
 - **Images:** ~364 annotated blood smear images  
 - **Format:** YOLO annotation format  
-- **Splits:** Predefined train/validation / test sets  
+- **Splits:** Predefined train/validation/test sets  
 
 The dataset includes bounding box annotations for each labeled cell instance.
 
@@ -92,7 +92,7 @@ When executed in order, the notebook runs end-to-end without errors.
 
 ---
 
-## 🧠 Model Details
+##  Model Details
 
 - **Architecture:** YOLO26s  
 - **Framework:** Ultralytics  
