@@ -98,8 +98,8 @@ When executed in order, the notebook runs end-to-end without errors.
 - **Framework:** Ultralytics  
 - **Pretrained Weights:** COCO  
 - **Epochs:** 25  
-- **Image Size:** 640  
-- **Batch Size:** 16  
+- **Image Size:** 320  
+- **Batch Size:** 4 
 
 Transfer learning is applied to adapt a general-purpose object detection model to the medical imaging domain.
 
