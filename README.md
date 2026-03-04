@@ -114,11 +114,13 @@ Validation performance after 25 training epochs:
 - **Precision:** 0.921  
 - **Recall:** 0.892  
 
-### Per-Class mAP@50
+### Per-Class Performance
 
-- **RBC:** 0.970  
-- **WBC:** 0.960  
-- **Platelets:** 0.912  
+|Class|mAP@50|mAP@50-95|Precision|Recall|
+|-|-|-|-|-|
+|RBC|0.828|0.575|0.770|0.723|
+|WBC|0.989|0.814|0.975|0.984|
+|Platelets|0.875|0.447|0.772|0.827|
 
 The model achieves the highest performance on RBC detection, largely due to class dominance and consistent visual patterns. Platelet detection remains comparatively more challenging because of the smaller object size and class imbalance.
 
