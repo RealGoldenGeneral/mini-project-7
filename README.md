@@ -13,7 +13,7 @@ https://github.com/RealGoldenGeneral/mini-project-7
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project presents the development of an object detection system designed to identify and localize blood cells in microscopic blood smear images. The model detects three clinically significant cell types:
 
@@ -21,11 +21,11 @@ This project presents the development of an object detection system designed to 
 - White Blood Cells (WBC)  
 - Platelets  
 
-Automated blood cell detection plays an essential role in Complete Blood Count (CBC) analysis. In high-throughput pathology laboratories, thousands of samples are processed daily, making manual review both time-consuming and resource-intensive. An accurate AI-assisted detection system can help prioritize abnormal samples, reduce turnaround time, and support pathologists—while not replacing clinical expertise.
+Automated blood cell detection plays an essential role in Complete Blood Count (CBC) analysis. In high-throughput pathology laboratories, thousands of samples are processed daily, making manual review both time-consuming and resource-intensive. An accurate AI-assisted detection system can help prioritize abnormal samples, reduce turnaround time, and support pathologists while not replacing clinical expertise.
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 **Dataset:** Blood Cell Count and Detection (BCCD)  
 **Source:** Roboflow Universe  
@@ -55,7 +55,7 @@ blood_cell_yolo/
 
 ---
 
-## ⚙️ Environment Setup
+## Environment Setup
 
 ### Requirements
 
@@ -105,7 +105,7 @@ Transfer learning is applied to adapt a general-purpose object detection model t
 
 ---
 
-## 📊 Results Summary
+## Results Summary
 
 Validation performance after 25 training epochs:
 
@@ -124,7 +124,7 @@ The model achieves the highest performance on RBC detection, largely due to clas
 
 ---
 
-## 👥 Team Contributions
+## Team Contributions
 
 ### Aristide Kanamugire
 - Dataset handling and preprocessing  
