@@ -1,0 +1,6 @@
+# requirements.txt for Mini Project 7 - Blood Cell Detection (Group 2)
+# Used with YOLO26, imgsz=320, batch=4
+
+ultralytics>=8.3.0        # Main library for YOLO26 training and inference
+matplotlib>=3.8.0         # For generating training curves and visualizations
+PyYAML>=6.0               # For reading the data.yaml file
